@@ -1,0 +1,62 @@
+[
+    {
+        "Model": "Decision Tree",
+        "Accuracy (%)": 91.64,
+        "Precision (%)": 90.12,
+        "Recall (%)": 95.24,
+        "F1-Score (%)": 92.61,
+        "FAR (%)": 12.79,
+        "ROC-AUC": 0.9711,
+        "Train Time (s)": 2.68,
+        "Latency (ms/1k)": 0.47,
+        "TN": 32269,
+        "FP": 4731,
+        "FN": 2156,
+        "TP": 43176
+    },
+    {
+        "Model": "Random Forest",
+        "Accuracy (%)": 91.08,
+        "Precision (%)": 88.28,
+        "Recall (%)": 96.63,
+        "F1-Score (%)": 92.27,
+        "FAR (%)": 15.72,
+        "ROC-AUC": 0.9838,
+        "Train Time (s)": 4.26,
+        "Latency (ms/1k)": 2.46,
+        "TN": 31185,
+        "FP": 5815,
+        "FN": 1529,
+        "TP": 43803
+    },
+    {
+        "Model": "Logistic Regression",
+        "Accuracy (%)": 83.59,
+        "Precision (%)": 80.28,
+        "Recall (%)": 93.05,
+        "F1-Score (%)": 86.2,
+        "FAR (%)": 28.01,
+        "ROC-AUC": 0.9561,
+        "Train Time (s)": 5.65,
+        "Latency (ms/1k)": 0.13,
+        "TN": 26637,
+        "FP": 10363,
+        "FN": 3149,
+        "TP": 42183
+    },
+    {
+        "Model": "Linear SVM",
+        "Accuracy (%)": 81.19,
+        "Precision (%)": 75.13,
+        "Recall (%)": 98.42,
+        "F1-Score (%)": 85.21,
+        "FAR (%)": 39.92,
+        "ROC-AUC": 0.9532,
+        "Train Time (s)": 46.33,
+        "Latency (ms/1k)": 0.88,
+        "TN": 22230,
+        "FP": 14770,
+        "FN": 718,
+        "TP": 44614
+    }
+]

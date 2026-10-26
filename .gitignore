@@ -1,0 +1,15 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Notebook junction mirrors (avoids duplicate tracking of root folders)
+notebooks/Training and Testing Sets
+notebooks/models
+notebooks/reports
